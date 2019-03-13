@@ -1,4 +1,5 @@
 import Container from '../container';
+import SectionHeader from '../section-header'
 import Checkmark from '../icons/checkmark';
 
 const Bullets = () => (
@@ -103,9 +104,7 @@ const Bullets = () => (
 
 export default () => (
   <Container wide padding center divider>
-    <h2 className="f0 fw6">
-      Native Features
-    </h2>
+    <SectionHeader title="Native Features" margin="0" />
 
     <div className="content">
       <p>
@@ -120,9 +119,6 @@ export default () => (
     <Bullets />
 
     <style jsx>{`
-      h2 {
-        line-height: 1.3;
-      }
       h4 {
         text-transform: uppercase;
         font-size: 0.790125rem;
@@ -132,9 +128,13 @@ export default () => (
         margin: 0 0 2rem 0;
         color: #999999;
       }
+      p {
+        margin: 0;
+        line-height: 2rem;
+      }
       .content {
-        margin: 1rem auto 3rem auto;
-        max-width: 36rem;
+        margin: 0 auto 3rem auto;
+        max-width: 38rem;
         padding 0 2rem;
       }
     `}</style>

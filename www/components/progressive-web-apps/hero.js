@@ -83,7 +83,7 @@ export default () => (
       </p>
     </div>
 
-    <Button invert href="#benefits">
+    <Button invert href="#offline-support">
       Learn More
     </Button>
   </Container>

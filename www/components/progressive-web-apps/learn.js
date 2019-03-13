@@ -1,4 +1,5 @@
 import Container from '../container';
+import SectionHeader from '../section-header'
 import Button from '../button';
 import Icon from '../icon-circle'
 import Lightning from '../icons/lightning'
@@ -8,10 +9,8 @@ export default () => (
     <div className="col">
       <Icon large><Lightning /></Icon>
 
-    <h2 className="f0 fw6">
-      Lightning Fast Navigation
-    </h2>
-
+    <SectionHeader margin="1.5rem 0 0 0" title="Lightning Fast Navigation" />
+      
     <div className="content">
       <p>
         Let janky scrolling and routing delays become a thing of the past. 
@@ -22,16 +21,16 @@ export default () => (
     </div>
 
     <div>
-      <Button invert href="/learn/excel/static-html-export">
+      <Button invert href="/learn">
         Learn Next.js
       </Button>
     </div>
     </div>
 
     <style jsx>{`
-      h2 {
-        line-height: 1.3;
-        margin: 1.5rem 0 0 0;
+      p {
+        margin: 0;
+        line-height: 2rem;
       }
       .col {
         display: flex;
@@ -39,8 +38,8 @@ export default () => (
         align-items: center;
       }
       .content {
-        margin: 1rem auto 2.5rem auto;
-        max-width: 42rem;
+        margin: 0 auto 1.5rem auto;
+        max-width: 46rem;
         padding: 0 2rem;
       }
     `}</style>

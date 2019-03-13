@@ -1,11 +1,10 @@
 import Container from '../container';
+import SectionHeader from '../section-header'
 import OfflineSupport from './svg/offline-support'
 
 export default () => (
   <Container wide center>
-    <h2 className="f0 fw6">
-      Offline Support
-    </h2>
+    <SectionHeader anchor="offline-support" title="Offline Support" margin="3rem 0 0 0" />
 
     <div className="content">
       <p>
@@ -20,9 +19,9 @@ export default () => (
     </div>
     
     <style jsx>{`
-      h2 {
-        line-height: 1.3;
-        margin: 4rem 0 0 0;
+      a {
+        display: none;
+        margin: 0 0 0 0;
       }
       .content {
         margin: 1rem 0 1.5rem;
