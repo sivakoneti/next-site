@@ -45,7 +45,9 @@ const Bullets = () => (
       }
 
       h4 {
-        margin: 0 0 0 0.75rem;
+        font-size: .8888875rem;
+        font-weight: 600;
+        margin: 0 0 0 0.4rem;
       }
 
       @media screen and (max-width: 1024px) {
