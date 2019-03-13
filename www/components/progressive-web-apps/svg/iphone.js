@@ -1,5 +1,5 @@
 export default () => (
-  <svg width="90" height="170" viewBox="120 0 400 950" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="84" height="170" viewBox="124 0 400 950" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#iphone-filter-1)">
 <g filter="url(#iphone-filter-2)">
 <path fillRule="evenodd" clipRule="evenodd" d="M548 233C549.105 233 550 233.895 550 235V335C550 336.105 549.105 337 548 337C546.895 337 546 336.105 546 335V235C546 233.895 546.895 233 548 233Z" fill="white"/>
