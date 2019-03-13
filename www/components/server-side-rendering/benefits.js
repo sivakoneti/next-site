@@ -1,8 +1,10 @@
 import posed from 'react-pose';
 
 import IObserver from '../intersection-observer';
-import SectionHeader from '../section-header';
-import { Lightning, Performance, Discovery } from './icons';
+import Icon from '../icon-circle'
+import Discovery from './svg/discovery'
+import Performance from './svg/performance'
+import Lightning from '../icons/lightning'
 
 const Bar = posed.div({
   ssr: {
@@ -124,7 +126,7 @@ export default class Benefits extends React.PureComponent {
         <div className="first">
           <div className="flex">
             <div className="col">
-              <Performance />
+              <Icon><Performance /></Icon>
               <h3 className="f3 fw6">Superior Performance</h3>
               <p>
                 On slower devices, rendering an initial page can take a long
@@ -147,7 +149,7 @@ export default class Benefits extends React.PureComponent {
 
         <div className="flex">
           <div className="col">
-            <Discovery />
+            <Icon><Discovery /></Icon>
             <h3 className="f3 fw6">Optimized for Discovery</h3>
             <p>
               SSR guarantees your pages are easily indexable by search engines
@@ -161,7 +163,7 @@ export default class Benefits extends React.PureComponent {
           <hr />
 
           <div className="col">
-            <Lightning />
+            <Icon><Lightning /></Icon>
             <h3 className="f3 fw6">Lightning Fast Delivery</h3>
             <p>
               Prefetching initial data and building pages on the server
@@ -185,6 +187,10 @@ export default class Benefits extends React.PureComponent {
             }
 
             p {
+              margin: 1rem 0 0 0;
+            }
+
+            h3 {
               margin: 1rem 0 0 0;
             }
 
