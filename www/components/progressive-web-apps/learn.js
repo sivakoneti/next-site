@@ -16,7 +16,7 @@ export default () => (
       <p>
         Let janky scrolling and routing delays become a thing of the past. 
         By intelligently caching app content, PWA's create a smooth user experience, 
-        no matter how sophisticated your application is.Eliminating navigation issues 
+        no matter how sophisticated your application is. Eliminating navigation issues 
         ensures you maximize user retainment. 
       </p>
     </div>
