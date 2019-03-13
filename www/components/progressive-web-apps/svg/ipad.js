@@ -1,5 +1,5 @@
 export default () => (
-  <svg width="265" height="240" viewBox="0 0 1250 1794" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="160" height="220" viewBox="0 0 1250 1794" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1250" height="1794" rx="73" fill="white"/>
 <rect width="1250" height="1794" rx="73" fill="url(#ipad-gradient-1)" fill-opacity="0.06"/>
 <rect x="7.5" y="7.5" width="1235" height="1779" rx="66.5" fill="#FCFCFC" stroke="#F6F6F6"/>
