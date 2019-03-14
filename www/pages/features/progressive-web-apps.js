@@ -19,7 +19,7 @@ export default () => (
   <Page title={title}>
     <SocialMeta
       title={title}
-      description="TODO TODO TODO TODO TODO"
+      description="With Next.js, building fully featured PWA's are only a few clicks away."
       image="/static/twitter-cards/pwa.png"
       url="https://nexts.org/features/progressive-web-apps"
       keywords="Progressive Web Apps, PWA, JS, Next, JavaScript, Web Framework"
