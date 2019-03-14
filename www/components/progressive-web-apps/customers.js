@@ -9,14 +9,16 @@ export default () => (
     <SectionHeader id="customers" title="Who's Using Next.js PWAs" />
 
     <div className="logos-container">
-      <div>
-        <Twitch />
-      </div>
-      <div>
-        <Staples />
-      </div>
-      <div>
-        <QQ />
+      <div className="logos">
+        <div>
+          <Twitch />
+        </div>
+        <div>
+          <Staples />
+        </div>
+        <div>
+          <QQ />
+        </div>
       </div>
     </div>
     
@@ -24,23 +26,33 @@ export default () => (
     {`
       .logos-container {
         display: flex;
+        justify-content: center;
+      }
+      .logos {
+        display: flex;
         opacity: .4;
-        max-width: 35rem;
-        width: 100%;
         justify-content: space-between;
         align-items: center;
-        margin: 0 auto;
+        transform-origin: right left;
       }
-
+      .logos > div {
+        margin: 0 2.25rem;
+      }
       @media screen and (max-width: 640px) {
-        .logos-container {
-          transform: scale(0.75);
+        .logos {
+          transform: scale(0.95);
+        }
+        .logos > div {
+          margin: 0 1rem;
         }
       }
       @media screen and (max-width: 480px) {
-        .logos-container {
-          max-width: unset;
-          margin: unset;
+        .logos {
+          transform: scale(0.75);
+        }
+      }
+      @media screen and (max-width: 380px) {
+        .logos {
           transform: scale(0.6);
         }
       }
