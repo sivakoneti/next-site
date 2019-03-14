@@ -19,10 +19,10 @@ export default () => (
   <Page title={title}>
     <SocialMeta
       title={title}
-      description="Next.js lets you modularize your styles without the hassle"
-      image="/static/twitter-cards/css-in-js.png"
-      url="https://nexts.org/features/css-in-js"
-      keywords="CSS-in-JS, CSS, JS, Next, JavaScript, Web Framework"
+      description="TODO TODO TODO TODO TODO"
+      image="/static/twitter-cards/pwa.png"
+      url="https://nexts.org/features/progressive-web-apps"
+      keywords="Progressive Web Apps, PWA, JS, Next, JavaScript, Web Framework"
     />
     <Header height={{ desktop: 64, mobile: 64 + 32 }} shadow dotBackground>
       <Navbar />
