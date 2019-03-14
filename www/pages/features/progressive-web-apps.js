@@ -1,5 +1,3 @@
-import Head from 'next/head';
-
 import Page from '../../components/page';
 import Header from '../../components/header';
 import Navbar from '../../components/navbar';
