@@ -7,13 +7,13 @@ export default () => (
 <path fillRule="evenodd" clipRule="evenodd" d="M102 211C103.105 211 104 211.895 104 213V275C104 276.105 103.105 277 102 277C100.895 277 100 276.105 100 275V213C100 211.895 100.895 211 102 211Z" fill="white"/>
 <path fillRule="evenodd" clipRule="evenodd" d="M102 147C103.105 147 104 147.895 104 149V180C104 181.105 103.105 182 102 182C100.895 182 100 181.105 100 180V149C100 147.895 100.895 147 102 147Z" fill="white"/>
 <path fillRule="evenodd" clipRule="evenodd" d="M348 924C347.088 922.786 345.636 922 344 922H306C304.364 922 302.912 922.786 302 924H188.89C159.024 924 148.194 920.89 137.276 915.051C126.357 909.212 117.788 900.643 111.949 889.724C106.11 878.806 103 867.976 103 838.11V111.89C103 82.0243 106.11 71.1942 111.949 60.2757C117.788 49.3572 126.357 40.7882 137.276 34.9489C148.194 29.1097 159.024 26 188.89 26L461.11 26C490.976 26 501.806 29.1097 512.724 34.9489C523.643 40.7882 532.212 49.3572 538.051 60.2757C543.89 71.1942 547 82.0243 547 111.89V838.11C547 867.976 543.89 878.806 538.051 889.724C532.212 900.643 523.643 909.212 512.724 915.051C501.806 920.89 490.976 924 461.11 924H348Z" fill="#FCFCFC"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M348 924C347.088 922.786 345.636 922 344 922H306C304.364 922 302.912 922.786 302 924H188.89C159.024 924 148.194 920.89 137.276 915.051C126.357 909.212 117.788 900.643 111.949 889.724C106.11 878.806 103 867.976 103 838.11V111.89C103 82.0243 106.11 71.1942 111.949 60.2757C117.788 49.3572 126.357 40.7882 137.276 34.9489C148.194 29.1097 159.024 26 188.89 26L461.11 26C490.976 26 501.806 29.1097 512.724 34.9489C523.643 40.7882 532.212 49.3572 538.051 60.2757C543.89 71.1942 547 82.0243 547 111.89V838.11C547 867.976 543.89 878.806 538.051 889.724C532.212 900.643 523.643 909.212 512.724 915.051C501.806 920.89 490.976 924 461.11 924H348Z" fill="url(#iphone-gradient-1)" fill-opacity="0.06"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M348 924C347.088 922.786 345.636 922 344 922H306C304.364 922 302.912 922.786 302 924H188.89C159.024 924 148.194 920.89 137.276 915.051C126.357 909.212 117.788 900.643 111.949 889.724C106.11 878.806 103 867.976 103 838.11V111.89C103 82.0243 106.11 71.1942 111.949 60.2757C117.788 49.3572 126.357 40.7882 137.276 34.9489C148.194 29.1097 159.024 26 188.89 26L461.11 26C490.976 26 501.806 29.1097 512.724 34.9489C523.643 40.7882 532.212 49.3572 538.051 60.2757C543.89 71.1942 547 82.0243 547 111.89V838.11C547 867.976 543.89 878.806 538.051 889.724C532.212 900.643 523.643 909.212 512.724 915.051C501.806 920.89 490.976 924 461.11 924H348Z" fill="url(#iphone-gradient-1)" fillOpacity="0.06"/>
 <rect x="539" y="832" width="8" height="6" fill="#F5F5F5"/>
 <rect x="103" y="832" width="8" height="6" fill="#F5F5F5"/>
 <rect x="539" y="112" width="8" height="6" fill="#F5F5F5"/>
 <rect x="103" y="112" width="8" height="6" fill="#F5F5F5"/>
 <path d="M186.917 33.5H463.083C489.789 33.5 499.394 36.2803 509.07 41.4549C518.76 46.6375 526.362 54.2398 531.545 63.9304C536.72 73.6061 539.5 83.2115 539.5 109.917V840.083C539.5 866.788 536.72 876.394 531.545 886.07C526.362 895.76 518.76 903.363 509.07 908.545C499.394 913.72 489.789 916.5 463.083 916.5H186.917C160.212 916.5 150.606 913.72 140.93 908.545C131.24 903.363 123.638 895.76 118.455 886.07C113.28 876.394 110.5 866.788 110.5 840.083V109.917C110.5 83.2115 113.28 73.6061 118.455 63.9304C123.638 54.2398 131.24 46.6375 140.93 41.4549C150.606 36.2803 160.212 33.5 186.917 33.5Z" fill="white"/>
-<path d="M186.917 33.5H463.083C489.789 33.5 499.394 36.2803 509.07 41.4549C518.76 46.6375 526.362 54.2398 531.545 63.9304C536.72 73.6061 539.5 83.2115 539.5 109.917V840.083C539.5 866.788 536.72 876.394 531.545 886.07C526.362 895.76 518.76 903.363 509.07 908.545C499.394 913.72 489.789 916.5 463.083 916.5H186.917C160.212 916.5 150.606 913.72 140.93 908.545C131.24 903.363 123.638 895.76 118.455 886.07C113.28 876.394 110.5 866.788 110.5 840.083V109.917C110.5 83.2115 113.28 73.6061 118.455 63.9304C123.638 54.2398 131.24 46.6375 140.93 41.4549C150.606 36.2803 160.212 33.5 186.917 33.5Z" fill="url(#iphone-gradient-2)" fill-opacity="0.06"/>
+<path d="M186.917 33.5H463.083C489.789 33.5 499.394 36.2803 509.07 41.4549C518.76 46.6375 526.362 54.2398 531.545 63.9304C536.72 73.6061 539.5 83.2115 539.5 109.917V840.083C539.5 866.788 536.72 876.394 531.545 886.07C526.362 895.76 518.76 903.363 509.07 908.545C499.394 913.72 489.789 916.5 463.083 916.5H186.917C160.212 916.5 150.606 913.72 140.93 908.545C131.24 903.363 123.638 895.76 118.455 886.07C113.28 876.394 110.5 866.788 110.5 840.083V109.917C110.5 83.2115 113.28 73.6061 118.455 63.9304C123.638 54.2398 131.24 46.6375 140.93 41.4549C150.606 36.2803 160.212 33.5 186.917 33.5Z" fill="url(#iphone-gradient-2)" fillOpacity="0.06"/>
 <path d="M186.917 33.5H463.083C489.789 33.5 499.394 36.2803 509.07 41.4549C518.76 46.6375 526.362 54.2398 531.545 63.9304C536.72 73.6061 539.5 83.2115 539.5 109.917V840.083C539.5 866.788 536.72 876.394 531.545 886.07C526.362 895.76 518.76 903.363 509.07 908.545C499.394 913.72 489.789 916.5 463.083 916.5H186.917C160.212 916.5 150.606 913.72 140.93 908.545C131.24 903.363 123.638 895.76 118.455 886.07C113.28 876.394 110.5 866.788 110.5 840.083V109.917C110.5 83.2115 113.28 73.6061 118.455 63.9304C123.638 54.2398 131.24 46.6375 140.93 41.4549C150.606 36.2803 160.212 33.5 186.917 33.5Z" stroke="#F0F0F0"/>
 <g filter="url(#iphone-filter-3)">
 <path fillRule="evenodd" clipRule="evenodd" d="M301.5 59H348.5C350.433 59 352 60.567 352 62.5C352 64.433 350.433 66 348.5 66H301.5C299.567 66 298 64.433 298 62.5C298 60.567 299.567 59 301.5 59Z" fill="#F5F5F5"/>
@@ -61,8 +61,8 @@ export default () => (
 </g>
 </g>
 <defs>
-<filter id="iphone-filter-1" x="0" y="26" width="550" height="998" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="iphone-filter-1" x="0" y="26" width="550" height="998" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dx="-51" dy="51"/>
 <feGaussianBlur stdDeviation="24.5"/>
@@ -70,8 +70,8 @@ export default () => (
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
-<filter id="iphone-filter-2" x="72" y="0" width="506" height="954" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="iphone-filter-2" x="72" y="0" width="506" height="954" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="2"/>
 <feGaussianBlur stdDeviation="14"/>
@@ -79,8 +79,8 @@ export default () => (
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
 </filter>
-<filter id="iphone-filter-3" x="298" y="59" width="54" height="8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="iphone-filter-3" x="298" y="59" width="54" height="8" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="1"/>
@@ -89,8 +89,8 @@ export default () => (
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0526778 0"/>
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
 </filter>
-<filter id="iphon-filter-4" x="366" y="56" width="13" height="14" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="iphon-filter-4" x="366" y="56" width="13" height="14" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="1"/>
@@ -103,14 +103,14 @@ export default () => (
 <use xlinkHref="#image0" href="#image0" transform="translate(0 -0.00028436) scale(0.00133333 0.000616114)"/>
 </pattern>
 <linearGradient id="iphone-gradient-1" x1="547" y1="26" x2="103" y2="26" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.5"/>
-<stop offset="0.966885" stop-color="white" stop-opacity="0.5"/>
-<stop offset="1" stop-opacity="0.5"/>
+<stop stopColor="white" stopOpacity="0.5"/>
+<stop offset="0.966885" stopColor="white" stopOpacity="0.5"/>
+<stop offset="1" stopOpacity="0.5"/>
 </linearGradient>
 <linearGradient id="iphone-gradient-2" x1="540" y1="33" x2="110" y2="33" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.5"/>
-<stop offset="0.952126" stop-color="white" stop-opacity="0.5"/>
-<stop offset="1" stop-opacity="0.5"/>
+<stop stopColor="white" stopOpacity="0.5"/>
+<stop offset="0.952126" stopColor="white" stopOpacity="0.5"/>
+<stop offset="1" stopOpacity="0.5"/>
 </linearGradient>
 <image id="image0" width="750" height="1624" href="" xlinkHref="" />
 </defs>

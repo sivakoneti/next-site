@@ -1,7 +1,7 @@
 export default () => (
   <svg width="160" height="220" viewBox="0 0 1250 1794" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1250" height="1794" rx="73" fill="white"/>
-<rect width="1250" height="1794" rx="73" fill="url(#ipad-gradient-1)" fill-opacity="0.06"/>
+<rect width="1250" height="1794" rx="73" fill="url(#ipad-gradient-1)" fillOpacity="0.06"/>
 <rect x="7.5" y="7.5" width="1235" height="1779" rx="66.5" fill="#FCFCFC" stroke="#F6F6F6"/>
 <mask id="ipad-mask-1" masktype="alpha" maskUnits="userSpaceOnUse" x="48" y="129" width="1154" height="1536">
 <mask id="ipad-mask-2" masktype="luminance" fill="white">
@@ -80,17 +80,17 @@ export default () => (
 </g>
 <g opacity="0.5">
 <g filter="url(#ipad-filter-1)">
-<path fill-rule="evenodd" clipRule="evenodd" d="M625 1767C645.987 1767 663 1749.99 663 1729C663 1708.01 645.987 1691 625 1691C604.013 1691 587 1708.01 587 1729C587 1749.99 604.013 1767 625 1767Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M625 1767C645.987 1767 663 1749.99 663 1729C663 1708.01 645.987 1691 625 1691C604.013 1691 587 1708.01 587 1729C587 1749.99 604.013 1767 625 1767Z" fill="white"/>
 </g>
 <path d="M661 1729C661 1748.88 644.882 1765 625 1765C605.118 1765 589 1748.88 589 1729C589 1709.12 605.118 1693 625 1693C644.882 1693 661 1709.12 661 1729Z" stroke="url(#ipad-gradient-2)" strokeOpacity="0.297086" strokeWidth="4"/>
 </g>
 <g filter="url(#ipad-filter-2)">
-<path fill-rule="evenodd" clipRule="evenodd" d="M625 79C630.523 79 635 74.5228 635 69C635 63.4772 630.523 59 625 59C619.477 59 615 63.4772 615 69C615 74.5228 619.477 79 625 79Z" fill="#F5F5F5"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M625 79C630.523 79 635 74.5228 635 69C635 63.4772 630.523 59 625 59C619.477 59 615 63.4772 615 69C615 74.5228 619.477 79 625 79Z" fill="#F5F5F5"/>
 </g>
-<path fill-rule="evenodd" clipRule="evenodd" d="M625 74C627.761 74 630 71.7614 630 69C630 66.2386 627.761 64 625 64C622.239 64 620 66.2386 620 69C620 71.7614 622.239 74 625 74Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M625 74C627.761 74 630 71.7614 630 69C630 66.2386 627.761 64 625 64C622.239 64 620 66.2386 620 69C620 71.7614 622.239 74 625 74Z" fill="white"/>
 <defs>
-<filter id="ipad-filter-1" x="587" y="1691" width="76" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="ipad-filter-1" x="587" y="1691" width="76" height="88" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="12"/>
@@ -99,8 +99,8 @@ export default () => (
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.068699 0"/>
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
 </filter>
-<filter id="ipad-filter-2" x="615" y="59" width="20" height="21" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="ipad-filter-2" x="615" y="59" width="20" height="21" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="1"/>
@@ -114,7 +114,7 @@ export default () => (
 <stop offset="1" stopOpacity="0.626076"/>
 </linearGradient>
 <linearGradient id="ipad-gradient-2" x1="667.489" y1="1785.93" x2="667.489" y2="1700.95" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stopOpacity="0.348958"/>
+<stop stopColor="white" stopOpacity="0.348958"/>
 <stop offset="1" stopOpacity="0.347543"/>
 </linearGradient>
 </defs>
