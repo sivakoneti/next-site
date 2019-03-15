@@ -45,9 +45,7 @@ const Bullets = () => (
       }
 
       h4 {
-        font-size: .8888875rem;
-        font-weight: 600;
-        margin: 0 0 0 0.4rem;
+        margin: 0 0 0 0.5rem;
       }
 
       @media screen and (max-width: 1024px) {
@@ -62,7 +60,7 @@ const Bullets = () => (
         }
       }
     
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 760px) {
         ul {
           margin: -1rem 1rem 2.5rem 1rem;
         }
@@ -108,16 +106,13 @@ export default () => (
         h1 br {
           display: none;
         }
-        h4 {
-          margin: 0 0 0 0.5rem;
-        }
         .col {
           width: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          padding: 2rem 0 2rem 0;
+          padding: 2.5rem 0;
         }
         .content {
           margin: 3rem 1rem;
@@ -131,9 +126,11 @@ export default () => (
         }
         @media screen and (max-width: 1024px) {
           .col {
+            justify-content: unset;
             flex-direction: column-reverse;
           }
           .devices {
+            margin: 0;
             transform: scale(0.8);
           }
         }
@@ -153,6 +150,7 @@ export default () => (
             margin: 2.5rem 1rem;
           }
           .devices {
+            margin: -2rem 0 0 0;
             transform: scale(0.5);
           }
         }
