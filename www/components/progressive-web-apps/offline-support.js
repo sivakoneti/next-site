@@ -1,10 +1,11 @@
 import Container from '../container';
 import SectionHeader from '../section-header'
 import OfflineSupport from './svg/offline-support'
+import Wifi from './svg/wifi'
 
 export default () => (
   <Container wide center>
-    <SectionHeader anchor="offline-support" title="Offline Support" margin="3rem 0 0 0" />
+    <SectionHeader anchor="offline-support" title="Offline Support" margin="4rem 0 0 0" />
 
     <div className="content">
       <p>
@@ -16,6 +17,9 @@ export default () => (
 
     <div className="device">
       <OfflineSupport />
+      <div className="wifi">
+        <Wifi />
+      </div>
     </div>
     
     <style jsx>{`
@@ -25,13 +29,18 @@ export default () => (
       }
       .content {
         margin: 1rem 0 1.5rem;
-        max-width: 42rem;
+        max-width: 44rem;
         margin: 0 auto;
         padding: 0 2rem;
       }
       .device {
+        position: relative;
         justify-content: center;
         display: flex;
+      }
+      .wifi {
+        position: absolute;
+        bottom: 0;
       }
     `}</style>
   </Container>
