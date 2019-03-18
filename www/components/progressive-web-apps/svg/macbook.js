@@ -98,6 +98,13 @@ export default () => (
 <stop offset="1" stopOpacity="0.5"/>
 </linearGradient>
 </defs>
+<style jsx>
+{`
+  svg {
+    shape-rendering: geometricprecision
+  }
+`}
+</style>
 </svg>
 
 )

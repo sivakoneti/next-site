@@ -114,5 +114,12 @@ export default () => (
 </linearGradient>
 <image id="image0" width="750" height="1624" href="" xlinkHref="" />
 </defs>
+<style jsx>
+{`
+  svg {
+    shape-rendering: geometricprecision
+  }
+`}
+</style>
 </svg>
 )
