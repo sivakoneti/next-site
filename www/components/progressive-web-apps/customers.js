@@ -6,7 +6,7 @@ import Staples from '../icons/companies/staples';
 
 export default () => (
   <Container wide divider padding>
-    <SectionHeader id="customers" title="Who's Using Next.js PWAs" />
+    <SectionHeader id="customers" title="Mobile Sites Built with Next.js" />
 
     <div className="logos-container">
       <div className="logos">
