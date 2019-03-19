@@ -1,9 +1,9 @@
 import Container from '../container'
 import Icon from '../icon-circle'
+import Image from '../image';
 import Checkmark from '../icons/checkmark';
 import Wrench from './svg/wrench'
 import Rocket from './svg/rocket'
-import ServerlessResult from '../static-exporting/svg/ServerlessResult';
 
 export default () => (
   <Container gray wide divider>
@@ -47,7 +47,9 @@ export default () => (
           </div>
 
           <div className="col">
-            <img height="307px" src="/static/images/learn.png" />
+            <div className="img-container">
+              <Image width={297} height={250} src="/static/images/features/pwa-steps.jpg" alt="Steps to setup a next.js PWA" />
+            </div>
           </div>
         </div>
     </div>
@@ -79,14 +81,30 @@ export default () => (
             .col {
               display: flex;
               flex-direction: column;
+              flex-basis: 50%;
             }
             .col:first-child {
-              padding: 4rem 4rem 4rem 0;
+              padding: 4rem 4rem 4rem 1rem;
             }
             .col:last-child {
-              padding: 4rem 0 4rem 4rem;
+              padding: 4rem 1rem 4rem 4rem;
+            }
+            .img-container {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 2rem 3.5rem;
+              background-color: #fff;
+              box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+              border-radius: 6px;
+            }
+            .img-container > :global(figure) {
+              margin: 0;
             }
             @media screen and (max-width: 1080px) {
+              .col {
+                flex-basis: unset;
+              }
               .col:first-child {
                 padding: 4rem 4rem 4rem 2rem;
               }
