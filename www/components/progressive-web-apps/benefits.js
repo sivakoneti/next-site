@@ -3,7 +3,108 @@ import Icon from '../icon-circle'
 import Checkmark from '../icons/checkmark';
 import Wrench from './svg/wrench'
 import Rocket from './svg/rocket'
-import Steps from './svg/steps'
+
+const LighthouseResult = () => (
+  <div className="container">
+    <div className="circle">
+      100
+    </div>
+    <span>Progressive Web App</span>
+    <style jsx>{`
+      div {
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        padding: 0.75rem 1rem;
+      }
+      span {
+        flex-shrink: 0;
+        font-size: 0.9375rem;
+        line-height: 1.875rem;
+      }
+      .circle {
+        border-radius: 50%;
+        padding: 0.5rem;
+        border: 2px solid #27C93F;
+        text-align: center;
+        color: #27C93F;
+        margin-right: 1rem;
+      }
+    `}</style>
+  </div>
+)
+
+const Instructions = () => (
+  <div className="container">
+    <ol>
+      <li>
+        <span>yarn add next-offline</span>
+      </li>
+      <li>
+        <span>touch static/manifest.json</span>
+      </li>
+      <li>
+        <a href="https://github.com/hanford/next-offline#usage">wrap config</a>&nbsp;with next-offline
+      </li>
+      <li>
+        <LighthouseResult />
+      </li>
+    </ol>
+    <style jsx>{`
+      ol {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        counter-reset: list-counter;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        display: flex;
+        counter-increment: list-counter;
+      }
+      li:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
+      li::before {
+        content: counter(list-counter);
+        background-color: #007AFF;
+        color: #fff;
+        border-radius: 50%;
+        width: 1.75rem;
+        height: 1.75rem;
+        text-align: center;
+        margin-right: 1.5rem;
+      }
+      span {
+        background-color: #383838;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 0.8125rem;
+        line-height: 1.5625rem;
+        padding: 0 1rem;
+      }
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+      a:hover {
+        opacity: 0.7;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 3.5rem;
+        background-color: #fff;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+      }
+    `}</style>
+  </div>
+)
 
 export default () => (
   <Container gray wide divider>
@@ -47,9 +148,7 @@ export default () => (
           </div>
 
           <div className="col">
-            <div className="steps-container">
-              <Steps />
-            </div>
+            <Instructions />
           </div>
         </div>
     </div>
@@ -89,16 +188,7 @@ export default () => (
             .col:last-child {
               padding: 4rem 1rem 4rem 4rem;
             }
-            .steps-container {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              padding: 2rem 3.5rem;
-              background-color: #fff;
-              box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-              border-radius: 6px;
-            }
-            @media screen and (max-width: 1080px) {
+            @media screen and (max-width: 960px) {
               .col {
                 flex-basis: unset;
               }
