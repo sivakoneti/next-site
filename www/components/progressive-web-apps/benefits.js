@@ -1,9 +1,9 @@
 import Container from '../container'
 import Icon from '../icon-circle'
-import Image from '../image';
 import Checkmark from '../icons/checkmark';
 import Wrench from './svg/wrench'
 import Rocket from './svg/rocket'
+import Steps from './svg/steps'
 
 export default () => (
   <Container gray wide divider>
@@ -47,8 +47,8 @@ export default () => (
           </div>
 
           <div className="col">
-            <div className="img-container">
-              <Image width={297} height={250} src="/static/images/features/pwa-steps.jpg" alt="Steps to setup a next.js PWA" />
+            <div className="steps-container">
+              <Steps />
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default () => (
             .col:last-child {
               padding: 4rem 1rem 4rem 4rem;
             }
-            .img-container {
+            .steps-container {
               display: flex;
               justify-content: center;
               align-items: center;
@@ -97,9 +97,6 @@ export default () => (
               background-color: #fff;
               box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
               border-radius: 6px;
-            }
-            .img-container > :global(figure) {
-              margin: 0;
             }
             @media screen and (max-width: 1080px) {
               .col {
