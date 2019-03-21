@@ -141,8 +141,8 @@ export default () => (
             <Icon><Checkmark dark /></Icon>
             <h3 className="f3 fw6">Easy to Enable</h3>
             <p>
-              With Next.js, converting you're application into a progressive web app has never been easier. 
-              Simply add the next-offline package, create an app manifest file and you're application will be ready to go. 
+              With Next.js, converting your application into a progressive web app has never been easier. 
+              Simply add the next-offline package, create an app manifest file and your application will be ready to go. 
               This is all you need to score 100 on the industry-standard Lighthouse PWA audit with Next.js.
             </p>
           </div>
