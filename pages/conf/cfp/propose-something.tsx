@@ -12,7 +12,7 @@ export default function Speaker() {
   return (
     <Page title={title} hideHeader>
       <SocialMeta
-        image="/static/twitter-cards/conf/cfp.png"
+        image="/static/twitter-cards/conf/cfp-twitter-card.png"
         title={title}
         url={`${SITE_URL}/conf/cfp/propose-something`}
         description={cfpOtherDescription}

@@ -13,7 +13,7 @@ export default function Index() {
   return (
     <Page title={title} hideHeader>
       <SocialMeta
-        image="/static/twitter-cards/conf/cfp.png"
+        image="/static/twitter-cards/conf/cfp-twitter-card.png"
         title={title}
         url={`${SITE_URL}/conf/cfp`}
         description={cfpDescriptionSentences.join(' ')}
