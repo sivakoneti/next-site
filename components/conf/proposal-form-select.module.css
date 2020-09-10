@@ -1,0 +1,57 @@
+.container {
+  appearance: none;
+  color: var(--secondary-color);
+  display: inline-flex;
+  text-transform: uppercase;
+  user-select: none;
+  font-weight: 100;
+  position: relative;
+  white-space: nowrap;
+  line-height: 0;
+  height: 56px;
+  width: 100%;
+  min-width: 160px;
+  outline: none;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.select {
+  -webkit-rtl-ordering: logical;
+  appearance: none;
+  background-color: #252729;
+  border: none;
+  cursor: default;
+  color: white;
+  font-size: 16px;
+  font-family: inherit;
+  width: 100%;
+  word-spacing: normal;
+  writing-mode: horizontal-tb !important;
+  padding: 16px 32px 16px 16px;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.select:focus {
+  outline: none;
+  background-color: #33373c;
+}
+
+.select:invalid {
+  color: var(--secondary-color);
+}
+
+.arrow {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  transition: border 0.2s ease 0s;
+}
+
+.arrow > svg {
+  color: var(--geist-background);
+}

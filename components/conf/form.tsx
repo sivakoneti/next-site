@@ -3,6 +3,7 @@ import cn from 'classnames';
 import { API_URL } from '@lib/constants';
 import useConfData from '@lib/hooks/useConfData';
 import { useRouter } from 'next/router';
+import FormError from '@lib/form-error';
 import LoadingDots from './loading-dots';
 import styleUtils from './utils.module.css';
 import styles from './form.module.css';
@@ -12,12 +13,6 @@ type FormState = 'default' | 'loading' | 'error';
 type Props = {
   sharePage?: boolean;
 };
-
-class FormError extends Error {
-  constructor(public res: Response) {
-    super();
-  }
-}
 
 export default function Form({ sharePage }: Props) {
   const [email, setEmail] = useState('');
