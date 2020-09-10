@@ -78,7 +78,7 @@ export default function ProposalForm({ proposalType }: Props) {
                   }
                 })
                 .catch(async err => {
-                  let message = 'Error! Please try again.';
+                  let message = 'Error! Please try again or contact conf@nextjs.org.';
 
                   if (err instanceof FormError) {
                     const { res } = err;
