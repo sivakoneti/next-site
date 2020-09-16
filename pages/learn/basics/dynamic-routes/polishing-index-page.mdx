@@ -9,16 +9,10 @@ export const meta = {
   subtitle: 'Polishing the Index Page'
 }
 
-First, let’s update our index page (`pages/index.js`).
+Next, let’s update our index page (`pages/index.js`).
 We need to add links to each post page using the [`Link`](/docs/api-reference/next/link) component.
 
-```jsx
-<Link href={`/posts/${id}`}>
-  <a>...</a>
-</Link>
-```
-
-`/posts/${id}` will transform into the actual path (`/posts/ssg-ssr`) when compiled. Let's import
+Let's import
 [`Link`](/docs/api-reference/next/link) and `Date` in `pages/index.js`:
 
 ```js
