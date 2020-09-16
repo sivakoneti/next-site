@@ -967,15 +967,6 @@ export const mapping = {
     alexa: 1043137,
     internalUrl: 'archbee',
     tags: ['dev', 'creative']
-  },
-  famousbio: {
-    title: 'Famous People Biography',
-    link: 'https://famousbio.net',
-    src: '/static/images/showcases/famousbio.jpg',
-    srcFallback: true,
-    alexa: 658662,
-    internalUrl: 'famousbio',
-    tags: ['news', 'entertainment']
   }
 };
 
