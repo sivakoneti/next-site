@@ -3,7 +3,7 @@ import { SITE_URL } from '@lib/constants';
 import Page from '@components/page';
 import SocialMeta from '@components/social-meta';
 import Layout from '@components/conf/layout';
-import { cfpOtherTitle, cfpOtherDescription } from '@lib/conf';
+import { cfpOtherTitle, cfpClosed } from '@lib/conf';
 import ProposalForm from '@components/conf/proposal-form';
 
 export default function Speaker() {
@@ -15,7 +15,7 @@ export default function Speaker() {
         image="/static/twitter-cards/conf/cfp-twitter-card.png"
         title={title}
         url={`${SITE_URL}/conf/cfp/propose-something`}
-        description={cfpOtherDescription}
+        description={cfpClosed}
       />
       <SkipNavContent />
       <Layout skipHeaderFooterAnimation confLogoLink="/conf">

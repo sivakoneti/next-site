@@ -6,7 +6,7 @@ type Props = {
   // To re-trigger animations https://stackoverflow.com/a/52232304/114157
   keyName?: React.Key;
   hero: React.ReactNode;
-  description: React.ReactNode;
+  description?: React.ReactNode;
 };
 
 export default function ProposalHeader({ keyName, hero, description }: Props) {
@@ -18,12 +18,14 @@ export default function ProposalHeader({ keyName, hero, description }: Props) {
       >
         {hero}
       </h2>
-      <p
-        key={keyName ? `${keyName}-description` : undefined}
-        className={cn(styles.description, styleUtils.appear, styleUtils['appear-second'])}
-      >
-        {description}
-      </p>
+      {description && (
+        <p
+          key={keyName ? `${keyName}-description` : undefined}
+          className={cn(styles.description, styleUtils.appear, styleUtils['appear-second'])}
+        >
+          {description}
+        </p>
+      )}
     </>
   );
 }

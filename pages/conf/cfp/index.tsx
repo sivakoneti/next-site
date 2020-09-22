@@ -5,8 +5,7 @@ import SocialMeta from '@components/social-meta';
 import Layout from '@components/conf/layout';
 import ProposalType from '@components/conf/proposal-type';
 import ProposalHeader from '@components/conf/proposal-header';
-import { cfpTitle, cfpDescriptionSentences } from '@lib/conf';
-import styleUtils from '@components/conf/utils.module.css';
+import { cfpTitle, cfpClosed } from '@lib/conf';
 
 export default function Index() {
   const title = `${cfpTitle} – Next.js Conf`;
@@ -16,20 +15,11 @@ export default function Index() {
         image="/static/twitter-cards/conf/cfp-twitter-card.png"
         title={title}
         url={`${SITE_URL}/conf/cfp`}
-        description={cfpDescriptionSentences.join(' ')}
+        description={cfpClosed}
       />
       <SkipNavContent />
       <Layout skipHeaderFooterAnimation confLogoLink="/conf">
-        <ProposalHeader
-          hero={cfpTitle}
-          description={
-            <>
-              {cfpDescriptionSentences[0]} <br className={styleUtils['hide-on-mobile']} />
-              {cfpDescriptionSentences[1]} <br className={styleUtils['hide-on-mobile']} />
-              {cfpDescriptionSentences[2]}
-            </>
-          }
-        />
+        <ProposalHeader hero={cfpTitle} />
         <ProposalType />
       </Layout>
     </Page>
