@@ -21,6 +21,7 @@ export default function ProposalType() {
         </a>
         .
       </p>
+      <h2 className={styles['small-header']}>Approval Panel</h2>
       <div className={styles.panels}>
         {cfpApprovalPanel.map(({ name, company, image }) => (
           <a

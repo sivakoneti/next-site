@@ -5,6 +5,15 @@
   margin: 20px auto 0;
 }
 
+.small-header {
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  margin: 60px 0 0;
+  text-align: center;
+}
+
 .description-link {
   color: #fff;
 }
