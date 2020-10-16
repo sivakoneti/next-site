@@ -135,6 +135,11 @@ const nextConfig = {
   redirects() {
     return [
       {
+        source: '/discord{/}?',
+        permanent: true,
+        destination: 'https://discord.gg/XnpEnMg'
+      },
+      {
         source: '/learn{/}?',
         permanent: true,
         destination: '/learn/basics/create-nextjs-app'
